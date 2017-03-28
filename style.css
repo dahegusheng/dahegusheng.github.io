@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
+::selection{
+    background: transparent;
+}
 .loginBtn{
     text-decoration: none;
     display: block;
     border-radius: 2px;
-    background: #03532f;
+    background: #57acb7;
     color: #fff;
     padding: 6px 12px;
     font-size: 12px;
@@ -17,10 +20,10 @@
 .loginBtn:hover{
     text-decoration: none;
     color: #fff;
-    background: #00833e;
-    -moz-box-shadow: 0 2px 4px rgba(25,153,72,.5);
-    -webkit-box-shadow: 0 2px 4px rgba(25,153,72,.5);
-    box-shadow: 0 2px 4px rgba(25,153,72,.5);
+    background: #72a4ab;
+    -moz-box-shadow: 0 2px 4px rgba(114,164,171,.5);
+    -webkit-box-shadow: 0 2px 4px rgba(114,164,171,.5);
+    box-shadow: 0 2px 4px rgba(114,164,171,.5);
 }
 
 .bg {
@@ -53,7 +56,7 @@
 
 .logo img {
     width: 30%;
-    max-width: 128px;
+    max-width: 98px;
 }
 
 .foot{
@@ -78,7 +81,8 @@
     width: 100%;
     text-align: center;
     position: fixed;
-    bottom: 160px;
+    bottom: 170px;
+
 }
 @keyframes ghostUpdown {
     from {
@@ -227,3 +231,6 @@
     animation-delay: 0.65s;
     -webkit-animation-delay: 0.65s;
 }
+
+
+
